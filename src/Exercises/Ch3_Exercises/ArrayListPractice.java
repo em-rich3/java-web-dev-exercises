@@ -1,4 +1,4 @@
-package Ch3_Exercises;
+package Exercises.Ch3_Exercises;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ArrayListPractice {
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(2);
         numbers.add(4);
@@ -38,7 +39,7 @@ public class ArrayListPractice {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter search word length: ");
         Integer wordLength = input.nextInt();
-        for (String word: splitStringArrayList) {
+        for (String word : splitStringArrayList) {
             if (word.length() == wordLength) {
                 System.out.println(word);
             }

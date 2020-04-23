@@ -1,4 +1,4 @@
-package Studio1_DataTypes;
+package Studios.Studio1_DataTypes;
 
 import java.util.Scanner;
 

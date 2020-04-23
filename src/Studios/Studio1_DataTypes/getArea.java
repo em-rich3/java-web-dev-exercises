@@ -1,4 +1,4 @@
-package Studio1_DataTypes;
+package Studios.Studio1_DataTypes;
 
 public class getArea {
     public static Double getArea(Double radius) {
